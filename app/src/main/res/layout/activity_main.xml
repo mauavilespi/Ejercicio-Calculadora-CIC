@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:backgroundTint="@color/black"
+    android:background="@color/black"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/txtViewExp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="#303030"
+        android:backgroundTint="#434343"
+        android:gravity="right|center_vertical"
+        android:paddingStart="0dp"
+        android:paddingEnd="16dp"
+        android:text="@string/txtViewExp_txt"
+        android:textColor="#FFFFFF"
+        android:textSize="56sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnOpBorrar"
+            style="@style/Widget.MaterialComponents.Button"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:backgroundTint="#515151"
+            android:insetTop="0dp"
+            android:insetBottom="0dp"
+            android:text="@string/btnOpBorrar_AC"
+            android:textSize="40sp"
+            app:strokeColor="#6E6E6E"
+            app:strokeWidth="0.4dp"
+            tools:ignore="NestedWeights" />
+
+        <Button
+            android:id="@+id/btnOpSigno"
+            style="@style/Widget.MaterialComponents.Button"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:backgroundTint="#515151"
+            android:insetTop="0dp"
+            android:insetBottom="0dp"
+            android:text="@string/btnOpSigno_plus"
+            android:textSize="40sp"
+            app:strokeColor="#6E6E6E"
+            app:strokeWidth="0.4dp" />
+
+        <Button
+            android:id="@+id/btnOpPorciento"
+            style="@style/Widget.MaterialComponents.Button"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:backgroundTint="#515151"
+            android:insetTop="0dp"
+            android:insetBottom="0dp"
+            android:text="@string/btnOpPorciento_Porcentaje"
+            android:textSize="40sp"
+            app:strokeColor="#6E6E6E"
+            app:strokeWidth="0.4dp" />
+
+        <Button
+            android:id="@+id/btnOpDiv"
+            style="@style/Widget.MaterialComponents.Button"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:backgroundTint="#456C28"
+            android:insetTop="0dp"
+            android:insetBottom="0dp"
+            android:text="@string/btnOpDiv_Divisor"
+            android:textSize="40sp"
+            app:strokeColor="#6E6E6E"
+            app:strokeWidth="0.4dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnDigSiete"
+            style="@style/Widget.MaterialComponents.Button"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:backgroundTint="#676767"
+            android:insetTop="0dp"
+            android:insetBottom="0dp"
+            android:text="@string/btnDigSiete_Siete"
+            android:textSize="40sp"
+            app:strokeColor="#6E6E6E"
+            app:strokeWidth="0.4dp"
+            tools:ignore="NestedWeights" />
+
+        <Button
+            android:id="@+id/btnDigOcho"
+            style="@style/Widget.MaterialComponents.Button"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:backgroundTint="#676767"
+            android:insetTop="0dp"
+            android:insetBottom="0dp"
+            android:text="@string/btnDigOcho_txt"
+            android:textSize="40sp"
+            app:strokeColor="#6E6E6E"
+            app:strokeWidth="0.4dp" />
+
+        <Button
+            android:id="@+id/btnDigNueve"
+            style="@style/Widget.MaterialComponents.Button"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:backgroundTint="#676767"
+            android:insetTop="0dp"
+            android:insetBottom="0dp"
+            android:text="@string/btnDigNueve_txt"
+            android:textSize="40sp"
+            app:strokeColor="#6E6E6E"
+            app:strokeWidth="0.4dp" />
+
+        <Button
+            android:id="@+id/btnOpMulti"
+            style="@style/Widget.MaterialComponents.Button"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:backgroundTint="#456C28"
+            android:insetTop="0dp"
+            android:insetBottom="0dp"
+            android:text="@string/btnOpMulti_txt"
+            android:textSize="40sp"
+            app:strokeColor="#6E6E6E"
+            app:strokeWidth="0.4dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnDigCuatro"
+            style="@style/Widget.MaterialComponents.Button"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:backgroundTint="#676767"
+            android:insetTop="0dp"
+            android:insetBottom="0dp"
+            android:text="@string/btnDigCuatro_txt"
+            android:textSize="40sp"
+            app:strokeColor="#6E6E6E"
+            app:strokeWidth="0.4dp"
+            tools:ignore="NestedWeights" />
+
+        <Button
+            android:id="@+id/btnDigCinco"
+            style="@style/Widget.MaterialComponents.Button"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:backgroundTint="#676767"
+            android:insetTop="0dp"
+            android:insetBottom="0dp"
+            android:text="@string/btnDigCinco_txt"
+            android:textSize="40sp"
+            app:strokeColor="#6E6E6E"
+            app:strokeWidth="0.4dp" />
+
+        <Button
+            android:id="@+id/btnDigSeis"
+            style="@style/Widget.MaterialComponents.Button"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:backgroundTint="#676767"
+            android:insetTop="0dp"
+            android:insetBottom="0dp"
+            android:text="@string/btnDigSeis_txt"
+            android:textSize="40sp"
+            app:strokeColor="#6E6E6E"
+            app:strokeWidth="0.4dp" />
+
+        <Button
+            android:id="@+id/btnOpResta"
+            style="@style/Widget.MaterialComponents.Button"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:backgroundTint="#456C28"
+            android:insetTop="0dp"
+            android:insetBottom="0dp"
+            android:text="@string/btnOpResta_txt"
+            android:textSize="40sp"
+            app:strokeColor="#6E6E6E"
+            app:strokeWidth="0.4dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnDigUno"
+            style="@style/Widget.MaterialComponents.Button"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:backgroundTint="#676767"
+            android:insetTop="0dp"
+            android:insetBottom="0dp"
+            android:text="@string/btnDigUno_txt"
+            android:textSize="40sp"
+            app:strokeColor="#6E6E6E"
+            app:strokeWidth="0.4dp"
+            tools:ignore="NestedWeights" />
+
+        <Button
+            android:id="@+id/btnDigDos"
+            style="@style/Widget.MaterialComponents.Button"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:backgroundTint="#676767"
+            android:insetTop="0dp"
+            android:insetBottom="0dp"
+            android:text="@string/btnDigDos_txt"
+            android:textSize="40sp"
+            app:strokeColor="#6E6E6E"
+            app:strokeWidth="0.4dp" />
+
+        <Button
+            android:id="@+id/btnDigTres"
+            style="@style/Widget.MaterialComponents.Button"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:backgroundTint="#676767"
+            android:insetTop="0dp"
+            android:insetBottom="0dp"
+            android:text="@string/btnDigTres_txt"
+            android:textSize="40sp"
+            app:strokeColor="#6E6E6E"
+            app:strokeWidth="0.4dp" />
+
+        <Button
+            android:id="@+id/btnOpSuma"
+            style="@style/Widget.MaterialComponents.Button"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:backgroundTint="#456C28"
+            android:insetTop="0dp"
+            android:insetBottom="0dp"
+            android:text="@string/btnOpSuma_txt"
+            android:textSize="40sp"
+            app:strokeColor="#6E6E6E"
+            app:strokeWidth="0.4dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnDigCero"
+            style="@style/Widget.MaterialComponents.Button"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:backgroundTint="#676767"
+            android:insetTop="0dp"
+            android:insetBottom="0dp"
+            android:text="@string/btnDigCero_txt"
+            android:textSize="40sp"
+            app:strokeColor="#6E6E6E"
+            app:strokeWidth="0.4dp"
+            tools:ignore="NestedWeights" />
+
+        <Button
+            android:id="@+id/btnPunto"
+            style="@style/Widget.MaterialComponents.Button"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:backgroundTint="#676767"
+            android:insetTop="0dp"
+            android:insetBottom="0dp"
+            android:text="@string/btnPunto_txt"
+            android:textSize="40sp"
+            app:strokeColor="#6E6E6E"
+            app:strokeWidth="0.4dp" />
+
+        <Button
+            android:id="@+id/btnOpIgual"
+            style="@style/Widget.MaterialComponents.Button"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:backgroundTint="#456C28"
+            android:insetTop="0dp"
+            android:insetBottom="0dp"
+            android:text="@string/btnOpIgual_txt"
+            android:textSize="40sp"
+            app:strokeColor="#6E6E6E"
+            app:strokeWidth="0.4dp" />
+    </LinearLayout>
+</LinearLayout>
